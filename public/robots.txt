@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://techtune.com
+
+# Sitemaps
+Sitemap: https://techtune.com/sitemap.xml

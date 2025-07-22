@@ -1,0 +1,85 @@
+.home6{
+    width: 100%;
+ height: 100vh;
+   display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    background-color: #C4BEBB;
+
+ /* background-image: url("/about/team.png");*/
+
+}
+.block7{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+   
+    width: 100%;
+  height: 100%;
+
+}
+ .block7a{
+
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+
+    width: 100%;
+  height: 100%;
+
+}
+
+.home7{
+    width: 100%;
+ height: 100vh;
+   display:flex;
+  justify-content: center;
+  
+  align-items: center;
+  flex-direction: column;
+    background-color: #161615; 
+
+ /* background-image: url("/about/team.png");*/
+
+}
+.home8{
+    width: 100%;
+ height: 100vh;
+   display:flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+    background-color: #C4BEBB; 
+
+ /* background-image: url("/about/team.png");*/
+
+}
+.home9{
+    width: 100%;
+ height: 100vh;
+   display:flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+    background-color: #090a4d; 
+
+ /* background-image: url("/about/team.png");*/
+
+}
+
+
+.home10{
+    width: 100%;
+ height: 100vh;
+   display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    background-color: #ffffff; 
+
+ /* background-image: url("/about/team.png");*/
+
+}

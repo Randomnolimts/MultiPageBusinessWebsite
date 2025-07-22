@@ -18,9 +18,264 @@
     --foreground: #ededed;
   }
 }
-
+head{
+  font-size: 16px;
+}
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    display: flex;
+  justify-content: center;
+    align-items: center;
+
+  height: 10vh;
+  max-width: 100vw;
+  background-color: #171717;
+  color:white;
+}
+
+.cover{
+  display: flex;
+    width: 100vw;
+    
+    align-items: center;
+    justify-content: center;
+    font-size:1.5rem;
+
+  justify-content: space-around;
+}
+
+
+.buttonInHeader{
+position: relative;
+cursor:pointer;
+}
+.buttonInHeader::after{
+  content: "";
+  display: flex;
+position: absolute;
+background-color: #ffffff;
+height: 2px;
+width: 100%;
+  transform: scale(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+
+  
+}
+.buttonInHeader:hover::after{
+  transform: scale(1);
+}
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main{
+  flex-grow: 1;
+}
+#footer{
+  justify-content: center;
+
+  display: flex;
+  height: 30vh;
+  width: 100vw;
+  background-color: #171717;
+  color:white;
+}
+.social{
+  display:flex;
+  justify-content: center;
+}
+.covericons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:2rem
+}
+.anime{opacity: 0; transition:1s ease-in-out}
+.anime2{opacity: 1;}
+.animeA{
+  opacity: 0; transition:1s ease-in-out
+}
+.anime2A{
+  opacity: 1;
+}
+.animeB{
+  opacity: 0; transition:1s ease-in-out
+}
+.anime2B{
+  opacity: 1;
+}
+.animeC{
+  opacity: 0; transition:1s ease-in-out
+}
+.anime2C{
+  opacity: 1;
+}
+.animeD{
+  opacity: 0; transition:1s ease-in-out
+}
+.anime2D{
+  opacity: 1;
+}
+
+.home{
+
+    width: 100%;
+ height: 100vh;
+
+  background-image: url("/background/Home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+.block{
+  display:flex;
+  position: relative;
+  flex-direction: column;
+   gap:2rem;
+  align-items: center;
+  justify-content: center;
+ 
+background-color: #171717ad;
+  color:white;
+  
+}
+.textcover{
+  height: auto;
+  width: auto;
+}
+.home2{
+  background-image: url("/background/Home2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.block2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+    width: 100%;
+  height: 100%;
+  background-color: #171717ad;
+}
+.text1{
+  background-color: #171717;
+
+  padding:1rem;
+  border-radius: 10%;
+}
+.blocks{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home3{
+  background-color: #2C2C2C; 
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.home4{
+background-color: #121212;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap:8rem;
+  align-items: center;
+  flex-direction: column;
+}
+.chat-bubble {
+  max-width: 100rem;
+  background-color: #e0f7fa;
+  color: #333;
+  padding: 1rem ;
+  border-radius: 20px;
+  position: relative;
+  font-family: sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
+/* Великий хвостик зліва */
+.chat-bubble::before {
+  content: "";
+  position: absolute;
+  top: 20px; /* вертикальне розташування */
+  left: -2rem; /* вихід за межі бульбашки */
+  width: 0;
+  height: 0;
+  border: 1rem solid transparent;
+  border-right-color: #e0f7fa; /* колір хвостика */
+}
+@media (max-width: 768px) {
+  .chat-bubble {
+  max-width: 20rem;
+  background-color: #e0f7fa;
+  color: #333;
+  padding: 1rem ;
+  border-radius: 20px;
+  position: relative;
+  font-family: sans-serif;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 20px;
+}
+
+/* Великий хвостик зліва */
+.chat-bubble::before {
+  content: "";
+  position: absolute;
+  top: 20px; /* вертикальне розташування */
+  left: -2rem; /* вихід за межі бульбашки */
+  width: 0;
+  height: 0;
+  border: 1rem solid transparent;
+  border-right-color: #e0f7fa; /* колір хвостика */
+}
+}
+.fade {
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+.animeE{
+  opacity: 0; transition:1s ease-in-out
+}
+.anime2E{
+  opacity: 1;
+}
+.animeF{
+  opacity: 0; transition:1s ease-in-out
+}
+.anime2F{
+  opacity: 1;
 }

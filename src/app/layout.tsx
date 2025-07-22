@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import Head from "next/head";
+import Header from "./components/header";
+import Footer from "./components/footer";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -23,12 +25,32 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+
     <html lang="en">
+              <Head>
+  <title>Про команду | Назва сайту</title>
+  <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Про команду | TechTune" />
+<meta name="twitter:description" content="Техніка з увагою до людей. З 2021 ми ремонтуємо чесно та точно." />
+<meta name="twitter:image" content="https://techtune.com/background/Home2.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://techtune.com/about" />
+
+  <meta name="description" content="Дізнайтесь більше про нашу команду — фахівці, точність і людське ставлення." />
+  <meta property="og:title" content="Про команду" />
+  <meta property="og:description" content="Дізнайтесь більше про нашу команду — фахівці, точність і людське ставлення." />
+  <meta property="og:image" content="/background/Home2.png" />
+</Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+<Header></Header>
+
+        <main>{children}</main>
+        <Footer></Footer>
       </body>
     </html>
   );
 }
+{/*13:50*/}
