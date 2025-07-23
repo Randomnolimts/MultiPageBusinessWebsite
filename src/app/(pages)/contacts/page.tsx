@@ -78,7 +78,7 @@ export default function Contact(){
     
 
     <div>
-      <h1 className="text-3xl font-bold mb-4 animeD">Звʼяжіться з нами</h1>
+      <h1 className="text-3xl text-gray-600 font-bold mb-4 animeD">Звʼяжіться з нами</h1>
       <p className="text-gray-600 mb-6 animeD">
         Маєте питання? Напишіть — ми відповідаємо оперативно!
       </p>
@@ -105,10 +105,10 @@ export default function Contact(){
 */}
  </div>
     <form className="grid gap-4">
-      <input type="text" placeholder="Ваше ім’я" className="animeD p-3 border rounded" />
-      <input type="email" placeholder="Email або телефон" className="p-3 border rounded" />
-      <textarea placeholder="Ваше повідомлення" className="animeD p-3 border rounded h-32" />
-      <button className="animeD bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">
+      <input type="text" placeholder="Ваше ім’я" className="animeD p-3 border border-black focus:border-blue-700 rounded" />
+      <input type="email" placeholder="Email або телефон" className="p-3 border  border-black focus:border-blue-700  rounded" />
+      <textarea placeholder="Ваше повідомлення" className="animeD p-3 border  border-black focus:border-blue-700 rounded h-32" />
+      <button className="animeD bg-blue-600 text-white px-6 py-3 rounded  hover:bg-blue-700">
         Надіслати
       </button>
     </form>

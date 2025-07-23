@@ -85,18 +85,18 @@ export default function Contact(){
         <h3 className="text-[1rem] sm:text-[1.5rem] md:text-[1.5rem]  text-gray-500 p-1 sm:p-2 md:p-3">Маєте питання? Ось відповіді на найчастіші</h3>
         </div>
               
-                <div className='grid  gap-4 justify-center items-center grid-cols-[repeat(auto-fit, minmax(280px, 1fr))]'> 
-          <div className=" p-1 sm:p-2 md:p-3 bg-gray-50 rounded w-auto h-auto border-2 border-black m-3  flex justify-center items-center flex-col "><h3 className="text-[1.2rem] sm:text-[1rem] md:text-[1.5rem]    p-3">Як замовити ремонт?</h3>
-          <p className="text-gray-600 mt-1 text-[0.7rem] sm:text-[1.2rem] md:text-[1rem]   p-3 text-wrap ">Просто заповніть форму на головній або на сторінці “Контакти”. Ми звʼяжемось протягом 10 хвилин!</p>
+                <div className='grid  gap-4 justify-center items-center grid-cols-[repeat(auto-fit, minmax(200px, 1fr))]'> 
+          <div className=" p-1 sm:p-2 md:p-3 bg-gray-50 rounded w-auto h-auto border-2 border-black m-3  flex justify-center items-center flex-col "><h3 className="text-[1.2rem] sm:text-[1rem] md:text-[1.5rem]    p-1 md:p-3">Як замовити ремонт?</h3>
+          <p className="text-gray-600 mt-1 text-[0.7rem] sm:text-[1.2rem] md:text-[1rem]    p-1 md:p-3 text-wrap ">Просто заповніть форму на головній або на сторінці “Контакти”. Ми звʼяжемось протягом 10 хвилин!</p>
 </div>
-          <div className="p-1 sm:p-2 md:p-3 bg-gray-50 rounded w-auto h-auto border-2 border-black m-3  flex justify-center items-center flex-col"><h3 className="text-[1.2rem] sm:text-[1rem] md:text-[1.5rem]    p-3">Скільки триває діагностика?</h3>
-          <p className="text-gray-600 mt-1 text-[0.7rem] sm:text-[1.2rem] md:text-[1rem]   p-3 text-wrap">Базова діагностика займає до 30 хвилин. Складні випадки — до 24 годин</p>
+          <div className="p-1 sm:p-2 md:p-3 bg-gray-50 rounded w-auto h-auto border-2 border-black m-3  flex justify-center items-center flex-col"><h3 className="text-[1.2rem] sm:text-[1rem] md:text-[1.5rem]     p-1 md:p-3">Скільки триває діагностика?</h3>
+          <p className="text-gray-600 mt-1 text-[0.7rem] sm:text-[1.2rem] md:text-[1rem]    p-1 md:p-3 text-wrap">Базова діагностика займає до 30 хвилин. Складні випадки — до 24 годин</p>
 </div>
-        <div className="p-1 sm:p-2 md:p-3 bg-gray-50 rounded w-auto h-auto border-2 border-black m-3  flex justify-center items-center flex-col"><h3 className="text-[1.5rem] sm:text-[1rem] md:text-[1.5rem]    p-3">Чи є гарантія на ремонт?</h3>
-          <p className="text-gray-600 mt-1 text-[0.7rem] sm:text-[1.2rem] md:text-[1rem]   p-3 text-wrap">Так, ми надаємо гарантію 90 днів на всі замінені компоненти.</p>
+        <div className="p-1 sm:p-2 md:p-3 bg-gray-50 rounded w-auto h-auto border-2 border-black m-3  flex justify-center items-center flex-col"><h3 className="text-[1.5rem] sm:text-[1rem] md:text-[1.5rem]     p-1 md:p-3">Чи є гарантія на ремонт?</h3>
+          <p className="text-gray-600 mt-1 text-[0.7rem] sm:text-[1.2rem] md:text-[1rem]   p-1 md:p-3 text-wrap">Так, ми надаємо гарантію 90 днів на всі замінені компоненти.</p>
 </div>
-        <div className="p-1 sm:p-2 md:p-3 bg-gray-50 rounded w-auto h-auto border-2 border-black m-3  flex justify-center items-center flex-col"><h3 className="text-[1.5rem] sm:text-[1rem] md:text-[1.5rem]    p-3">Чи можна спочатку отримати консультацію?</h3>
-          <p className="text-gray-600 mt-1 text-[0.7rem] sm:text-[1.2rem] md:text-[1rem]   p-3 text-wrap">Звісно! Просто напишіть нам у чат, і ми проконсультуємо безкоштовно.</p>
+        <div className="p-1 sm:p-2 md:p-3 bg-gray-50 rounded w-auto h-auto border-2 border-black m-3  flex justify-center items-center flex-col"><h3 className="text-[1.5rem] sm:text-[1rem] md:text-[1.5rem]     p-1 md:p-3">Чи можна спочатку отримати консультацію?</h3>
+          <p className="text-gray-600 mt-1 text-[0.7rem] sm:text-[1.2rem] md:text-[1rem]    p-1 md:p-3 text-wrap">Звісно! Просто напишіть нам у чат, і ми проконсультуємо безкоштовно.</p>
 </div>
 </div>
         </div>

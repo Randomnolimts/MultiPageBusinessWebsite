@@ -11,12 +11,12 @@ export default function Footer(){
       return(
     <nav id="footer">
         <ul className="cover">
-            <ul className="flex justify-center items-center flex-col gap-3">
+            <ul className="flex justify-center items-center flex-col gap-1 sm:gap2 md:gap-3 ">
         <li className={`${oswald.className} sm:text-2xl md:text-3xl lg:text-4xl m-3 sm:m-0 md:m-0`}>Profile website</li>
-        <li className={`text-white no-underline text-[1.5rem] list-none text-[1.5rem] sm:text-xl md:text-3xl `} ><Link href = '/'>Home</Link></li>
-                <li className={`text-white no-underline text-[1.5rem] list-none sm:text-2xl md:text-3xl `}><Link href = '/contacts'>Contacts</Link></li>
-        <li className={`text-white no-underline list-none text-[1.5rem] sm:text-2xl md:text-3xl `}><Link href = '/about'>About us</Link></li>
-        <li className={`text-white no-underline list-none text-[1.5rem] sm:text-2xl md:text-3xl `}><Link href = '/FAQ'>FAQ</Link></li>
+        <li className={`text-white no-underline list-none text-[1.5rem] sm:text-xl md:text-3xl `} ><Link href = '/'>Home</Link></li>
+                <li className={`text-white no-underline list-none text-[1.3rem] sm:text-xl md:text-3xl  `}><Link href = '/contacts'>Contacts</Link></li>
+        <li className={`text-white no-underline list-none text-[1.3rem] sm:text-xl md:text-3xl  `}><Link href = '/about'>About us</Link></li>
+        <li className={`text-white no-underline list-none text-[1.3rem] sm:text-xl md:text-3xl  `}><Link href = '/FAQ'>FAQ</Link></li>
         </ul>
                     <ul>
                         <div className="covericons">

@@ -88,9 +88,9 @@ export default function About(){
             <div className='animeE flex justify-center items-center flex-col'>
             <div className={`${styles.block7} `}>
                 <div className='bg-[#171717] rounded w-auto h-auto p-3'>
-        <h1 className="text-[1.5rem] sm:text-[1rem] md:text-[2.5rem] text-white">Хто ми такі</h1>
+        <h1 className="text-[1.2rem] sm:text-[1.5rem] md:text-[2rem] text-white">Хто ми такі</h1>
         </div>
-        <div className = "relative w-60 h-60 sm:w-13 sm:h-13 md:w-150 md:h-150 mb-5">
+        <div className = "relative w-50 h-50 sm:w-100 sm:h-100 md:w-150 md:h-150 mb-5">
 <Image  fill alt = "Фото команди" src = "/about/team.png" />
         </div>
       { /* <img
@@ -114,17 +114,17 @@ className="w-60 h-60 sm:w-13 sm:h-13 md:w-150 md:h-150 mb-5  "
 
 
 
-<div className='flex flex-col max-w-[80%] md:max-w-[40%] bg-[#C4BEBB] rounded w-auto h-auto p-3 order-2 md:order-1'><strong><h2 className='text-[1.2rem] sm:text-[1.5rem] md:text-[2rem]  md:max-w-[60%] inline'>
+<div className='flex flex-col max-w-[80%] md:max-w-[40%] bg-[#C4BEBB] rounded w-auto h-auto p-3 order-2 md:order-1'><strong><h2 className='text-[1rem] sm:text-[1.5rem] md:text-[2rem]  md:max-w-[60%] inline'>
  Іван — Технік-аналітик
 </h2></strong>
-<p className='text-[1rem] sm:text-[1.3rem] md:text-[1.5rem] '>
+<p className='text-[0.8rem] sm:text-[1.3rem] md:text-[1.5rem] '>
 Іван — людина, яка завжди знає, де закопано глюк. З 2019 року діагностує проблеми техніки швидше, ніж вона встигає сказати “синій екран”.
 Любить чіткість, порядок і коли шлейфи лежать ідеально. Саме він перевіряє, чи працює все не лише зовні, а й “в нутрощах”.
 Його девіз: “Якщо відкрити комп — то тільки з повагою.”
 
 </p></div>
 
-<div className=" relative w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5 "><Image alt="first member" src="/about/first.png" fill  priority/></div>
+<div className=" relative w-60 h-90 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5 "><Image alt="first member" src="/about/first.png" fill  priority/></div>
 
 
 
@@ -132,7 +132,7 @@ className="w-60 h-60 sm:w-13 sm:h-13 md:w-150 md:h-150 mb-5  "
         </section>
                 <section className={styles.home8}>
             <div className={`${styles.block7a} flex-col md:flex-row animeE`}>
-<div className="relative w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5">
+<div className="relative w-60 h-90 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5">
 <Image 
 alt = "second member"
 src="/about/second.png" 
@@ -145,17 +145,19 @@ src="/about/second.png"
 className="w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5   "
 ></img>
            */}
-<div className='flex flex-col max-w-[80%] md:max-w-[40%] bg-[#161615] rounded w-auto h-auto p-3 '><strong><h2 className='text-[1.2rem] sm:text-[1.5rem] md:text-[2rem]  md:max-w-[60%] inline'>
+<div className='flex flex-col max-w-[80%] md:max-w-[40%] bg-[#161615] rounded w-auto h-auto p-3 '><strong><h2 className='text-[1rem] sm:text-[1.5rem] md:text-[2rem]  md:max-w-[60%] inline'>
 Олена — Майстерка з точності
 
 
 </h2></strong>
 
-<p className='text-[1rem] sm:text-[1.3rem] md:text-[1.5rem] '>
-Техніка — це не просто залізо. Це чийсь день, робота, зв’язок.
-Олена підходить до ремонту з теплом і фокусом: від акуратної заміни гнізда зарядки до тонкої пайки контактів — вона бачить не просто деталь, а ситуацію, яку потрібно врятувати.
-Її фірмовий стиль — акуратність, увага до дрібниць і завжди спокійна впевненість.
-Якщо ваш пристрій в її руках — можете видихнути. Він у безпеці.
+<p className='text-[0.8rem] sm:text-[1.3rem] md:text-[1.5rem] '>
+Олена діагностує неполадки точніше, ніж тестер — швидко, але з увагою. З 2019 року займається ремонтом із теплом і педантичністю.
+Її сильні сторони — акуратність, логіка та вміння відновити пристрій так, щоб він працював не «як новий», а краще, ніж до поломки.
+Любить, коли плати сяють, а пайка — рівна.
+Її девіз: “Якщо щось виправляти — то з повагою до власника і техніки.”
+
+
 
 </p></div>
 
@@ -167,16 +169,16 @@ className="w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5   "
 
 
 
-<div className='flex flex-col max-w-[80%] md:max-w-[40%] bg-[#C4BEBB] rounded w-auto h-auto p-3 order-2 md:order-1'><strong><h2 className='text-[1.2rem] sm:text-[1.5rem] md:text-[2rem]  md:max-w-[60%] inline'>
+<div className='flex flex-col max-w-[80%] md:max-w-[40%] bg-[#C4BEBB] rounded w-auto h-auto p-3 order-2 md:order-1'><strong><h2 className='text-[1rem] sm:text-[1.5rem] md:text-[2rem]  md:max-w-[60%] inline'>
 Марк — Майстер мікроскопічної точності
 </h2></strong>
-<p className='text-[1rem] sm:text-[1.3rem] md:text-[1.5rem] '>
+<p className='text-[0.8rem] sm:text-[1.3rem] md:text-[1.5rem]'>
 Те, що інші не бачать — він виправляє під мікроскопом.
 Марк — той, хто вміє впоратись із найдрібнішими поломками: мікросхеми, конектори, плати, гнізда — все це його територія.
 Працює з мобільними, планшетами, MacBook’ами — і завжди знаходить рішення, навіть коли “ні в кого не вийшло”.
 Його робоче місце — це лабораторія точності, а кожен ремонт — як хірургічна операція.
 </p></div>
-<div className="relative w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5  ">
+<div className="relative w-60 h-90 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5 ">
   <Image 
 src="/about/third.png"
 alt = "third member"
@@ -191,7 +193,7 @@ className="w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5  "
             </div>
         </section>
 <section className={`${oswald.className} ${styles.home10}`}>
-  <h2 className="text-[2.5rem]">Чому ми</h2>
+  <h2 className="text-[1.5rem] sm: text-[2rem] md:text-[2.5rem]">Чому ми</h2>
   <div className="animeE block3 grid sm:grid-cols-1 md:grid-cols-4 grid-cols-2 gap-2">
     
     {/* Діагностика */}
@@ -205,8 +207,8 @@ className="w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5  "
           priority
         />
       </div>
-      <p className="text-xl text-center mb-2">Діагностика</p>
-      <p className="text-xl text-center">
+      <p className="text-[1.rem]  md:text-[2rem] text-center mb-2">Діагностика</p>
+      <p className="text-[0.8rem]  md:text-[1.5rem] text-center">
         Встановлюємо та оновлюємо драйвери, Windows або Linux, офісні пакети, утиліти, браузери — усе, що потрібно для комфортної роботи.
       </p>
     </div>
@@ -222,8 +224,8 @@ className="w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5  "
           priority
         />
       </div>
-      <p className="text-xl text-center mb-2">Узгодження</p>
-      <p className="text-xl text-center">
+      <p className="text-[1.rem]  md:text-[2rem] text-center mb-2">Узгодження</p>
+      <p className="text-[0.8rem]  md:text-[1.5rem] text-center">
         Пояснюємо все без технічного жаргону, погоджуємо терміни та вартість.
       </p>
     </div>
@@ -239,8 +241,8 @@ className="w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5  "
           priority
         />
       </div>
-      <p className="text-xl text-center mb-2">Ремонт</p>
-      <p className="text-xl text-center">
+      <p className="text-[1.rem]  md:text-[2rem] text-center mb-2">Ремонт</p>
+      <p className="text-[0.8rem]  md:text-[1.5rem]  text-center">
         Працюємо швидко, чисто і без зайвих “втручань”.
       </p>
     </div>
@@ -256,8 +258,8 @@ className="w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5  "
           priority
         />
       </div>
-      <p className="text-xl text-center mb-2">Перевірка</p>
-      <p className="text-xl text-center">
+      <p className="text-[1.rem]  md:text-[2rem] text-center text-center mb-2">Перевірка</p>
+      <p className="text-[0.8rem]  md:text-[1.5rem]  text-center">
         Тестуємо роботу, оновлення, батарею, зарядку — усе під контролем.
       </p>
     </div>
