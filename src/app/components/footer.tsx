@@ -1,5 +1,5 @@
 import { Oswald } from "next/font/google" 
-
+import Image from "next/image"
 import Link from "next/link"
 
 const oswald  = Oswald({
@@ -22,7 +22,8 @@ export default function Footer(){
                         <div className="covericons">
         <li className={`${oswald.className}  sm:text-2xl md:text-3xl lg:text-4xl`}>Contact</li>
 <ul className="social">
-
+  
+{/*
 <img
 alt = "Instagram"
 src="/icons/instagram.svg"
@@ -57,7 +58,41 @@ className="w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20"
   />
 
   </a>*/}
+<div className="relative w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20">
+  <Image
+    src="/icons/instagram.svg"
+    alt="Instagram"
+    fill
+    className="object-contain"
+  />
+</div>
 
+<div className="relative w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20">
+  <Image
+    src="/icons/facebook.svg"
+    alt="Facebook"
+    fill
+    className="object-contain"
+  />
+</div>
+
+<div className="relative w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20">
+  <Image
+    src="/icons/github.svg"
+    alt="GitHub"
+    fill
+    className="object-contain"
+  />
+</div>
+
+<div className="relative w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20">
+  <Image
+    src="/icons/telegram.svg"
+    alt="Telegram"
+    fill
+    className="object-contain"
+  />
+</div>
 
 </ul>
 </div>

@@ -4,6 +4,7 @@ import SeoHead from "./components/SeoHead"
 import obj from "./components/messages.json"
 import { useEffect, useState } from "react"
 import Head from 'next/head';
+import Image from "next/image"
 {/*шрифти*/}
 const oswald  = Oswald({
     subsets: ['vietnamese'],
@@ -50,7 +51,7 @@ const messege = () => {
   const home2 = document.querySelector<Element>('.home2')
   console.log(home2)
   const  anime2 = document.querySelectorAll('.animeA')
-  let masiv = [...anime2]
+  const masiv = [...anime2]
   console.log(masiv)
   const callback = (masiv: IntersectionObserverEntry[])=>{
      masiv.forEach(element => {
@@ -72,7 +73,7 @@ const messege = () => {
   const home3 = document.querySelector<Element>('.home3')
   console.log(home3)
   const  anime3 = document.querySelectorAll('.animeB')
-  let masiv = [...anime3]
+  const masiv = [...anime3]
   console.log(masiv)
   const callback = (masiv: IntersectionObserverEntry[])=>{
      masiv.forEach(element => {
@@ -229,37 +230,54 @@ const messege = () => {
       <div className="block3 grid sm:grid-cols-1 md:grid-cols-4 grid-cols-2 gap-2">
 
 <div className="animeB aspect-square  rounded-lg text-white p-4 flex flex-col justify-center items-center">
-<img
-alt = "speed"
-src="/icons/timer.png"
-className="w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20 mb-5"
-></img>
+<div className="relative w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20 mb-5">
+  <Image
+    src="/icons/timer.png"
+    alt="speed"
+    fill
+    className="object-contain"
+  />
+</div>
+
 <p>Швидкий ремонт
 Вирішуємо більшість проблем упродовж 24–48 годин. Економимо ваш час.</p></div>
 <div className="animeB aspect-square rounded-lg text-white p-4 flex flex-col justify-center items-center">
-  <img
-alt = "verified"
-src="/icons/verifed.png"
-className="w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20 mb-5"
-></img>
+
+<div className="relative w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20 mb-5">
+  <Image
+    src="/icons/verifed.png"
+    alt="verified"
+    fill
+    className="object-contain"
+  />
+</div>
+
 <p>
 Гарантія на роботи
 Надаємо офіційну гарантію на всі послуги. Ви отримуєте не просто результат — а впевненість.</p></div>
 <div className="animeB aspect-square  rounded-lg text-white p-4 flex flex-col justify-center items-center">
-  <img
-alt = "skill"
-src="/icons/skill.png"
-className="w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20 mb-5"
-></img>
+<div className="relative w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20 mb-5">
+  <Image
+    src="/icons/skill.png"
+    alt="skill"
+    fill
+    className="object-contain"
+  />
+</div>
+
 <p>
 Досвідчені майстри
 Сертифіковані фахівці з багаторічним досвідом. Знаємо як відновити навіть “мертву” техніку.</p></div>
 <div className=" animeB spect-square  rounded-lg text-white p-4 flex flex-col justify-center items-center">
-  <img
-alt = "response"
-src="/icons/response.png"
-className="w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20 mb-5"
-></img>
+<div className="relative w-10 h-10 sm:w-13 sm:h-13 md:w-20 md:h-20 mb-5">
+  <Image
+    src="/icons/response.png"
+    alt="response"
+    fill
+    className="object-contain"
+  />
+</div>
+
 <p>Безкоштовна консультація
 Пояснюємо причину несправності, даємо пораду без зайвого нав’язування.
 </p></div>
