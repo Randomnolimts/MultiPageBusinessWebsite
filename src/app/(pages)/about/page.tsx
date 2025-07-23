@@ -193,7 +193,7 @@ className="w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5  "
             </div>
         </section>
 <section className={`${oswald.className} ${styles.home10}`}>
-  <h2 className="text-[1.5rem] sm: text-[2rem] md:text-[2.5rem]">Чому ми</h2>
+  <h2 className="text-[1.5rem] sm: text-[2rem] md:text-[2.5rem] text-black">Чому ми</h2>
   <div className="animeE block3 grid sm:grid-cols-1 md:grid-cols-4 grid-cols-2 gap-2">
     
     {/* Діагностика */}
@@ -207,8 +207,8 @@ className="w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5  "
           priority
         />
       </div>
-      <p className="text-[1.rem]  md:text-[2rem] text-center mb-2">Діагностика</p>
-      <p className="text-[0.8rem]  md:text-[1.5rem] text-center">
+      <p className="text-[1.rem]  md:text-[2rem] text-center mb-2 text-black">Діагностика</p>
+      <p className="text-[0.8rem]  md:text-[1.5rem] text-center text-black">
         Встановлюємо та оновлюємо драйвери, Windows або Linux, офісні пакети, утиліти, браузери — усе, що потрібно для комфортної роботи.
       </p>
     </div>
@@ -224,8 +224,8 @@ className="w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5  "
           priority
         />
       </div>
-      <p className="text-[1.rem]  md:text-[2rem] text-center mb-2">Узгодження</p>
-      <p className="text-[0.8rem]  md:text-[1.5rem] text-center">
+      <p className="text-[1.rem]  md:text-[2rem] text-center mb-2 text-black">Узгодження</p>
+      <p className="text-[0.8rem]  md:text-[1.5rem] text-center text-black">
         Пояснюємо все без технічного жаргону, погоджуємо терміни та вартість.
       </p>
     </div>
@@ -241,8 +241,8 @@ className="w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5  "
           priority
         />
       </div>
-      <p className="text-[1.rem]  md:text-[2rem] text-center mb-2">Ремонт</p>
-      <p className="text-[0.8rem]  md:text-[1.5rem]  text-center">
+      <p className="text-[1.rem]  md:text-[2rem] text-center mb-2 text-black">Ремонт</p>
+      <p className="text-[0.8rem]  md:text-[1.5rem]  text-center text-black">
         Працюємо швидко, чисто і без зайвих “втручань”.
       </p>
     </div>
@@ -258,8 +258,8 @@ className="w-80 h-120 sm:w-13 sm:h-13 md:w-100 md:h-150 mb-5  "
           priority
         />
       </div>
-      <p className="text-[1.rem]  md:text-[2rem] text-center text-center mb-2">Перевірка</p>
-      <p className="text-[0.8rem]  md:text-[1.5rem]  text-center">
+      <p className="text-[1.rem]  md:text-[2rem] text-center text-center mb-2 text-black">Перевірка</p>
+      <p className="text-[0.8rem]  md:text-[1.5rem]  text-center text-black">
         Тестуємо роботу, оновлення, батарею, зарядку — усе під контролем.
       </p>
     </div>

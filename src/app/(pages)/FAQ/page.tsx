@@ -80,7 +80,7 @@ export default function Contact(){
         <section className={styles.FAQ}>
             <div className=" w-[100%] h-[100vh] flex justify-center items-center flex-col animeF">
                 <div className="bg-white rounded p-1 sm:p-2 md:p-3">
-        <h1 className="text-[1.3rem] sm:text-[1.5rem] md:text-[3rem]  "><strong>FAQ</strong></h1></div>
+        <h1 className="text-[1.3rem] sm:text-[1.5rem] md:text-[3rem]  text-black"><strong>FAQ</strong></h1></div>
         <div className="bg-white rounded">
         <h3 className="text-[1rem] sm:text-[1.5rem] md:text-[1.5rem]  text-gray-500 p-1 sm:p-2 md:p-3">Маєте питання? Ось відповіді на найчастіші</h3>
         </div>
@@ -105,8 +105,8 @@ export default function Contact(){
                <div className={styles.minmax}>
             <div className='border-black border-solid border-2 p-5  sm:p-10 md:p-20 rounded-xl animeF'>
              
-            <h2 className="text-[1.3rem] sm:text-[1.5rem] md:text-[3rem]"><strong> Гарантія та політика ремонту </strong></h2>
-                 <h3 className="text-[1rem] sm:text-[1.3rem] md:text-[2rem]"><strong>Яка гарантія на ремонт? </strong></h3>
+            <h2 className="text-[1.3rem] sm:text-[1.5rem] md:text-[3rem] text-black"><strong> Гарантія та політика ремонту </strong></h2>
+                 <h3 className="text-[1rem] sm:text-[1.3rem] md:text-[2rem] text-gray-500"><strong>Яка гарантія на ремонт? </strong></h3>
                  <h4 className="text-[1rem] sm:text-[1.3rem] md:text-[1.5rem] text-gray-600">Ми надаємо 90 днів гарантії на всі замінені компоненти. Якщо щось піде не так — просто зверніться, і ми вирішимо це безкоштовно. Надійність для нас — не просто слово.
 </h4>
 </div>
@@ -114,7 +114,7 @@ export default function Contact(){
         </section>
          <section className={`${styles.section3} gap-2 sm:gap-3 md:gap-4`}>
             <div className="w-[100%]  flex justify-center items-center flex-col animeF ">
-      <h1 className="text-[1.3rem] sm:text-[1.5rem] md:text-[3rem]"><strong>Оплата та доставка</strong></h1>
+      <h1 className="text-[1.3rem] sm:text-[1.5rem] md:text-[3rem] text-black"><strong>Оплата та доставка</strong></h1>
 
       <h3 className="text-[1rem] sm:text-[1.5rem] md:text-[1.5rem] text-gray-600 p-1 sm:p-2 md:p-3 m-4 sm:m-5 md:m-6">
         Усе про способи оплати, терміни доставки та умови отримання
@@ -126,7 +126,7 @@ export default function Contact(){
     
   <div className="aspect-square  rounded-lg  p-4 flex flex-col justify-center border-black border-2 ">
     
-    <p className="text-xl text-center mb-2">💻 Ремонт ноутбуків</p>
+    <p className="text-xl text-center mb-2 text-black ">💻 Ремонт ноутбуків</p>
     <p className="text-[0.7rem] sm:text-sm text-gray-600 text-center ">
       Проводимо детальну діагностику ноутбуків, виявляємо апаратні й програмні несправності. Замінюємо роз’єми живлення, порти USB/HDMI, клавіатури, петель та матриць.
     </p>
@@ -135,7 +135,7 @@ export default function Contact(){
 
    {/* 🦠 Видалення вірусів */}
   <div className="aspect-square  rounded-lg  p-4 flex flex-col justify-center border-black border-2 ">
-    <p className="text-xl text-center mb-2">🦠 Видалення вірусів</p>
+    <p className="text-xl text-center mb-2 text-black">🦠 Видалення вірусів</p>
     <p className="text-[0.7rem] sm:text-sm text-gray-600 text-center">
       Очищаємо систему від шкідливого програмного забезпечення, налаштовуємо антивірусний захист, покращуємо швидкодію, відновлюємо стабільну роботу ОС.
     </p>
@@ -143,7 +143,7 @@ export default function Contact(){
 
   {/* 🔧 Оновлення програм */}
   <div className="aspect-square rounded-lg  p-4 flex flex-col justify-center border-black border-2 ">
-    <p className="text-xl text-center mb-2">🔧 Оновлення програм</p>
+    <p className="text-xl text-center mb-2 text-black">🔧 Оновлення програм</p>
     <p className="text-[0.7rem] sm:text-sm text-gray-600 text-center">
       Встановлюємо та оновлюємо драйвери, Windows або Linux, офісні пакети, утиліти, браузери — усе, що потрібно для комфортної роботи.
     </p>
@@ -151,7 +151,7 @@ export default function Contact(){
 
   {/* 🧩 Заміна компонентів */}
   <div className="aspect-square  rounded-lg  p-4 flex flex-col justify-center border-black border-2 ">
-    <p className="text-xl text-center mb-2">🧩 Заміна компонентів</p>
+    <p className="text-xl text-center mb-2 text-black">🧩 Заміна компонентів</p>
     <p className="text-[0.7rem] sm:text-sm text-gray-600 text-center">
       Апгрейд комп’ютера: встановлення SSD, оперативної пам’яті, відеокарти або блоку живлення. Робимо сучасну техніку зі старого заліза!
     </p>
