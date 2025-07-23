@@ -1,9 +1,8 @@
 'use client'
-import { Rubik_Bubbles } from "next/font/google"
 import { Oswald } from "next/font/google"
 import SeoHead from "./components/SeoHead"
 import obj from "./components/messages.json"
-import { use, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import Head from 'next/head';
 {/*шрифти*/}
 const oswald  = Oswald({
@@ -11,15 +10,10 @@ const oswald  = Oswald({
     weight: '600',
 
 })
-  /* const rubik = Rubik_Bubbles({
-        subsets: ['latin'],
-        weight: '400',
-    })
-*/
 {/*сторінка*/}
 export default function Home(){
     useEffect(()=>{
-      let elements = [...document.querySelectorAll('.anime')]
+      const elements = [...document.querySelectorAll('.anime')]
           const callback =(elements:IntersectionObserverEntry[])=>{
     elements.forEach((el)=>{
       if(el.isIntersecting){
@@ -100,7 +94,7 @@ const messege = () => {
   const home4 = document.querySelector<Element>('.home4')
   console.log(home4)
   const  anime4 = document.querySelectorAll('.animeC')
-  let masiv = [...anime4]
+  const  masiv = [...anime4]
   console.log(masiv)
   const callback = (masiv: IntersectionObserverEntry[])=>{
      masiv.forEach(element => {

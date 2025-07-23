@@ -26,7 +26,7 @@ export default function Header(){
                     <Image  fill alt = "Фото команди" src = "/icons/menu.png" />
                 </div>
             </li>
-        <li className={`${oswald.className} sm:text-2xl md:text-3xl lg:text-4xl `}>Profile website</li>
+        <li className={`${oswald.className} sm:text-2xl md:text-3xl lg:text-4xl `}>TechTune</li>
         <li className={`buttonInHeader opacity-0 md:opacity-100`} ><Link href = '/'>Home</Link></li>
                 <li className={`buttonInHeader opacity-0 md:opacity-100`}><Link href = '/contacts'>Contacts</Link></li>
         <li className={`buttonInHeader opacity-0 md:opacity-100`}><Link href = '/about'>About us</Link></li>
