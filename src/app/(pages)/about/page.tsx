@@ -90,7 +90,7 @@ export default function About(){
                 <div className='bg-[#171717] rounded w-auto h-auto p-3'>
         <h1 className="text-[1.2rem] sm:text-[1.5rem] md:text-[2rem] text-white">Хто ми такі</h1>
         </div>
-        <div className = "relative w-50 h-50 sm:w-100 sm:h-100 md:w-150 md:h-150 mb-5">
+        <div className = "relative w-50 h-50 sm:w-70 sm:h-70 md:w-100 md:h-100 ld:w-150 ld:h-150 mb-5">
 <Image  fill alt = "Фото команди" src = "/about/team.png" />
         </div>
       { /* <img
@@ -100,8 +100,8 @@ className="w-60 h-60 sm:w-13 sm:h-13 md:w-150 md:h-150 mb-5  "
 ></img>*/}
 
         </div>
-        <div className="bg-[#171717] rounded w-auto h-auto p-3  sm:max-w-[80%]  max-w-[90%] md:max-w-[60%]">
-        <h2 className='text-[1rem] sm:text-[0.7rem] md:text-[1.3rem] text-white max-w-[40%] md:max-w-[60%] inline'>Ми — команда, яка робить ремонт техніки простим, чесним і ефективним.
+        <div className="bg-[#171717] rounded w-auto h-auto p-1 sm:p-4 md:p-5 lg:p-8  sm:max-w-[80%]  max-w-[90%] md:max-w-[60%]">
+        <h2 className='text-[1rem] sm:text-[0.7rem] md:text-[1.3rem] lg: text-[1.3rem] text-white max-w-[40%] md:max-w-[60%] p-1 sm:p-2 md:p-3 lg:p-3 inline'>Ми — команда, яка робить ремонт техніки простим, чесним і ефективним.
 З 2021 року ми працюємо над тим, щоб кожен пристрій отримував друге життя: ноутбуки, комп’ютери, планшети — ми ремонтуємо з увагою до деталей і людей.
 Ми віримо, що хороший сервіс — це не просто якісний ремонт, а й комфортне спілкування, швидка відповідь і людське ставлення.
 За кожною заявкою — реальна людина з потребою, і ми ніколи не забуваємо про це. Саме тому наші клієнти повертаються і радять нас друзям.

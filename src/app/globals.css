@@ -209,7 +209,7 @@ background-color: #121212;
   flex-direction: column;
 }
 .chat-bubble {
-  max-width: 100rem;
+  
   background-color: #e0f7fa;
   color: #333;
   padding: 1rem ;
@@ -231,32 +231,7 @@ background-color: #121212;
   border: 1rem solid transparent;
   border-right-color: #e0f7fa; /* колір хвостика */
 }
-@media (max-width: 768px) {
-  .chat-bubble {
-  max-width: 20rem;
-  background-color: #e0f7fa;
-  color: #333;
-  padding: 1rem ;
-  border-radius: 20px;
-  position: relative;
-  font-family: sans-serif;
 
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  margin: 20px;
-}
-
-/* Великий хвостик зліва */
-.chat-bubble::before {
-  content: "";
-  position: absolute;
-  top: 20px; /* вертикальне розташування */
-  left: -2rem; /* вихід за межі бульбашки */
-  width: 0;
-  height: 0;
-  border: 1rem solid transparent;
-  border-right-color: #e0f7fa; /* колір хвостика */
-}
-}
 .fade {
   opacity: 0;
   animation: fadeIn 0.5s ease forwards;
